@@ -1,0 +1,39 @@
+PRETTY_NAME="Raspbian GNU/Linux 13 (trixie)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.6
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+Linux pi 6.18.50+rpt-rpi-v6 #1 Raspbian 1:6.18.50-1+rpt1 (2026-09-11) armv6l GNU/Linux
+Core version is v6.5 (Latest: v6.5)
+Web version is v6.6.1 (Latest: v6.6.1)
+FTL version is v6.8 (Latest: v6.8)
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 500 http://archive.raspberrypi.com/debian trixie/main arm64 Packages
+     release o=Raspberry Pi Foundation,a=stable,n=trixie,l=Raspberry Pi Foundation,c=main,b=arm64
+     origin archive.raspberrypi.com
+ 500 http://archive.raspberrypi.com/debian trixie/main armhf Packages
+     release o=Raspberry Pi Foundation,a=stable,n=trixie,l=Raspberry Pi Foundation,c=main,b=armhf
+     origin archive.raspberrypi.com
+ 500 http://raspbian.raspberrypi.com/raspbian trixie/rpi armhf Packages
+     release o=Raspbian,a=stable,n=trixie,l=Raspbian,c=rpi,b=armhf
+     origin raspbian.raspberrypi.com
+ 500 http://raspbian.raspberrypi.com/raspbian trixie/non-free armhf Packages
+     release o=Raspbian,a=stable,n=trixie,l=Raspbian,c=non-free,b=armhf
+     origin raspbian.raspberrypi.com
+ 500 http://raspbian.raspberrypi.com/raspbian trixie/contrib armhf Packages
+     release o=Raspbian,a=stable,n=trixie,l=Raspbian,c=contrib,b=armhf
+     origin raspbian.raspberrypi.com
+ 500 http://raspbian.raspberrypi.com/raspbian trixie/main armhf Packages
+     release o=Raspbian,a=stable,n=trixie,l=Raspbian,c=main,b=armhf
+     origin raspbian.raspberrypi.com
+Pinned packages:
+
+Held packages:
