@@ -23,8 +23,8 @@ Reduced from **1,665 to 501 packages**.
      linux-image-rpi-v6 raspi-firmware initramfs-tools systemd-timesyncd
    ```
 
-  Back up Pi-hole (Teleporter), Unbound, networking, boot, and log2ram configuration
-  separately. Log2ram is active on this setup but absent from the APT manifest.
+   Back up Pi-hole (Teleporter), Unbound, networking, boot, and log2ram configuration
+   separately. Log2ram is active on this setup but absent from the APT manifest.
 
 2. In Bash, from this repository's directory on the Pi, compare **package names
    only**:
@@ -54,7 +54,7 @@ Reduced from **1,665 to 501 packages**.
 
 3. Edit the smaller `review.txt` first: leave **only new packages you approve for
    removal**, one name per line. Delete entries you want to keep. Save and exit
-  before merging it with the historical candidates.
+   before merging it with the historical candidates.
 
    Then merge, deduplicate, and simulate. Historical removals are candidates,
    not proof that a package is unnecessary on a new release. Remove any known
@@ -70,7 +70,7 @@ Reduced from **1,665 to 501 packages**.
    it is acceptable, feed the same reviewed list to the real purge:
 
    ```bash
-  xargs -r -a delete.txt sudo apt-get purge --autoremove
+   xargs -r -a delete.txt sudo apt-get purge --autoremove
    ```
 
    Keep the running kernel, boot firmware, SSH, Wi-Fi, DNS, and swap dependencies.
